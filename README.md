@@ -16,6 +16,8 @@ Create a `.env` file in the project root with the following variables:
 
 ```
 MONGO_URI=your_mongodb_connection_string
+PORT=3000   # optional; defaults to 3000 if not set
+```
 
 ## Running the Application
 
@@ -24,6 +26,8 @@ node server.js
 # or, with nodemon for automatic restarts during development
 npx nodemon server.js
 ```
+
+The server will listen on the port defined by `PORT` in the `.env` file (default 3000).
 
 ## API Endpoints
 
