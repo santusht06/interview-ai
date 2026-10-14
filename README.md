@@ -1,5 +1,7 @@
 # interview-ai
 
+![AI Maintained](https://img.shields.io/badge/readme-AI%20maintained-blue)
+
 A simple Express.js API for user authentication using MongoDB.
 
 ## Installation
@@ -15,8 +17,6 @@ npm install
 Create a `.env` file in the project root with the following variables:
 
 ```
-MONGO_URI=your_mongodb_connection_string
-PORT=3000   # optional; defaults to 3000 if not set
 ```
 
 ## Running the Application
